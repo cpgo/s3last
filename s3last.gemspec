@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Download last file on specified bucket}
   spec.description   = %q{Download last file on specified bucket}
-  spec.homepage      = "http://gitlab.com/cassiogodinho/s3last"
+  spec.homepage      = "https://github.com/cpgo/s3last"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
